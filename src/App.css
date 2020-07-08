@@ -28,7 +28,7 @@ form {
   display: flex;
   width: 100%;
   margin-top: 0;
-  padding: 2rem;
+  padding: 0.83rem 2rem;
   justify-content: space-between;
 }
 .flex {
@@ -40,7 +40,6 @@ form {
   flex-direction: column;
   margin-left: 1rem;
   width: 100%;
-
   justify-content: space-between;
 }
 label {
@@ -76,13 +75,30 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 600px) {
   input[type="text"] {
-    max-width: 7rem;
+    max-width: 4rem;
   }
   /* .main-container {
     max-width: 100%;
     height: 100vh;
-  }
-  .container {
-    max-width: 100%;
   } */
+  .container {
+    max-width: 20rem;
+  }
+  .flex {
+    display: flex;
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  input[type="text"] {
+    max-width: 4rem;
+  }
+  /* .main-container {
+    max-width: 1200px;
+    border: 2px solid red;
+  } */
+  .flex {
+    display: flex;
+    margin: 0.66rem;
+  }
 }

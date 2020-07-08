@@ -54,7 +54,7 @@ export class Form extends Component {
               <div className="column">
                 <label>Last Name</label>
                 <input
-                  placeholder="Last sName"
+                  placeholder="Last Name"
                   type="text"
                   value={lastname}
                   onChange={this.handleChange}
