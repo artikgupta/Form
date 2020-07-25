@@ -40,7 +40,7 @@ export class Form extends Component {
           </div>
           <form>
             {/* about */}
-            <div className="about flex">
+            <div className="about flex ">
               <div className="column">
                 <label>First Name</label>
                 <input
@@ -73,7 +73,7 @@ export class Form extends Component {
               </div>
             </div>
             {/* address-info */}
-            <div className="address-info flex">
+            <div className="address-info flex ">
               <div className="column">
                 <label>Company</label>
                 <input
@@ -96,7 +96,7 @@ export class Form extends Component {
               </div>
             </div>
             {/* country-info */}
-            <div className="country-info flex">
+            <div className="country-info flex ">
               <div className="column">
                 <label>Country</label>
                 <input
