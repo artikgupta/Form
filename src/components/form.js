@@ -129,12 +129,12 @@ export class Form extends Component {
               </div>
             </div>
             {/* shipping info */}
-            <div className="shipping-info flex">
+            <div className="shipping-info check-design ">
               <input type="checkbox"></input>
               <p>My shipping and billing information is here</p>
             </div>
             {/* password-info */}
-            <div className="password-info flex">
+            <div className="password-info check-design">
               <input type="checkbox"></input>
               <p>Create a password for easy account access</p>
             </div>
