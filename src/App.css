@@ -89,6 +89,7 @@ input[type="checkbox"] {
   border-radius: 3px;
 }
 .check-design {
+  margin-top: 1rem;
   display: flex;
   justify-content: space-around;
 }
